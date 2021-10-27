@@ -28,6 +28,6 @@
   # shellcode generate with ragg2
     ragg2 -i exec -b 32 (32bit)
     
-    ragg2 -i exec -b 64
+    ragg2 -i exec -b 64 (64bit)
     
     
