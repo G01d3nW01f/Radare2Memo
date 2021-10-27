@@ -14,8 +14,14 @@
     ->  #!/usr/bin/rarun2
         stdin=./junk.txt
         
-  r2 -r fuzz.rr2 -d <binary_name>
+    r2 -r fuzz.rr2 -d <binary_name>
+    
+    dc
+      -> segmetation fault
+      
+    wopO `dr eip`
 
+      -> Found the Offset
 
   # shellcode generate
     ragg2 -i exec -b 32 (32bit)
